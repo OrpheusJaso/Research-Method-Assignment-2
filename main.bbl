@@ -1,0 +1,259 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{ahmad2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bc9efc4f9e431c22713af41179afcb6e}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Noor},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e86ecedaa4a6fc887837eb8ca64c8585}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{fullhash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{fullhashraw}{82c7065e8642c600fef90f39e2b58490}
+      \strng{bibnamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorbibnamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authornamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorfullhash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorfullhashraw}{82c7065e8642c600fef90f39e2b58490}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Artificial Intelligence}
+      \field{title}{Deep Learning Methods for Intelligent Systems}
+      \field{year}{2022}
+      \field{pages}{120\bibrangedash 126}
+      \range{pages}{7}
+    \endentry
+    \entry{lee2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=25656f474933f66104dd9249f527f141}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2027d87ecbb78155b509c7838f415304}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{fullhash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{fullhashraw}{00942042ccc9a68945e71725e62b53d3}
+      \strng{bibnamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorbibnamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authornamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorfullhash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorfullhashraw}{00942042ccc9a68945e71725e62b53d3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{A Comprehensive Review of Machine Learning Techniques}
+      \field{volume}{215}
+      \field{year}{2023}
+      \field{pages}{119234}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2023.119234
+      \endverb
+    \endentry
+    \entry{smith2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=380f6af10ab88987b4793f70f5105365}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b41fe0754fd3864ac9f18e92f6daf24}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{fullhash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{fullhashraw}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{bibnamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorbibnamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authornamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorfullhash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorfullhashraw}{606a86f0e9d01f669ab314fb89a12938}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Advanced Research Approaches in Artificial Intelligence}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{12345\bibrangedash 12356}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.1234567
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{ahmad2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bc9efc4f9e431c22713af41179afcb6e}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Noor},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e86ecedaa4a6fc887837eb8ca64c8585}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{fullhash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{fullhashraw}{82c7065e8642c600fef90f39e2b58490}
+      \strng{bibnamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorbibnamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authornamehash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorfullhash}{82c7065e8642c600fef90f39e2b58490}
+      \strng{authorfullhashraw}{82c7065e8642c600fef90f39e2b58490}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Artificial Intelligence}
+      \field{title}{Deep Learning Methods for Intelligent Systems}
+      \field{year}{2022}
+      \field{pages}{120\bibrangedash 126}
+      \range{pages}{7}
+    \endentry
+    \entry{lee2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=25656f474933f66104dd9249f527f141}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2027d87ecbb78155b509c7838f415304}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{fullhash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{fullhashraw}{00942042ccc9a68945e71725e62b53d3}
+      \strng{bibnamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorbibnamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authornamehash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorfullhash}{00942042ccc9a68945e71725e62b53d3}
+      \strng{authorfullhashraw}{00942042ccc9a68945e71725e62b53d3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{A Comprehensive Review of Machine Learning Techniques}
+      \field{volume}{215}
+      \field{year}{2023}
+      \field{pages}{119234}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2023.119234
+      \endverb
+    \endentry
+    \entry{smith2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=380f6af10ab88987b4793f70f5105365}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b41fe0754fd3864ac9f18e92f6daf24}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{fullhash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{fullhashraw}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{bibnamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorbibnamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authornamehash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorfullhash}{606a86f0e9d01f669ab314fb89a12938}
+      \strng{authorfullhashraw}{606a86f0e9d01f669ab314fb89a12938}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Advanced Research Approaches in Artificial Intelligence}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{12345\bibrangedash 12356}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.1234567
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
