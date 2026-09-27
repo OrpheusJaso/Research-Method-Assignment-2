@@ -15,6 +15,7 @@
 \contentsline {section}{\numberline {6.2}Technical Approach}{13}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Data Tools}{13}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Evaluation Criteria}{13}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Assumptions \& Dependencies}{13}{subsection.6.4.1}%
 \contentsline {chapter}{\numberline {7}Expected Outcomes}{14}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Project Timeline}{15}{chapter.8}%
 \contentsline {section}{References}{17}{section*.4}%
