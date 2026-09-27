@@ -90,11 +90,11 @@
 \vspace{0.8cm}
 
 {\fontsize{12}{14}\selectfont
-\textbf{Programme:} [Programme Name]\\
-\textbf{Course:} [Course Code and Course Name]\\
-\textbf{Lecturer:} [Lecturer Name]\\
-\textbf{Semester:} [Semester]\\
-\textbf{Submission Date:} [Date]
+\textbf{Programme:} [Research Method]\\
+\textbf{Course:} [CPT6123]\\
+\textbf{Lecturer:} [Rohana Binti Mydin]\\
+\textbf{Semester:} [2620]\\
+\textbf{Submission Date:} [27th September 2026]
 }
 
 \end{center}
@@ -114,8 +114,6 @@
 \begin{justify}
 
 Write a concise summary of the entire review article. Write a concise summary of the entire review article. Write a concise summary of the entire review article. Write a concise summary of the entire review article.
-
-Write a concise summary of the entire review article.Write a concise summary of the entire review article.Write a concise summary of the entire review article.
 
 
 
@@ -168,191 +166,212 @@ The abstract should include:
 
 \chapter{Introduction}
 
-\section{Background}
+The present state of computer science allows for constant advancement in technology within the modern world. Of many innovations, AI has become a central subject within cybersecurity, for its rapid improvement of software through constant iteration and self-progression. 
 
-Introduce the selected research topic and explain why it is important.
+However, this ability to rapidly improve is an emerging problem, as the sophisticated attacks; deepfakes, phishing, automation of malware, combined with this age of interconnected devices, the Internet of Things (IoT) give rise to more complications in updating the defenses against these attacks. 
 
-This is how you add inline references in the document given that all your references have been copied in the references.bib.
-Recent studies have demonstrated the effectiveness of artificial
-intelligence techniques \parencite{smith2024}.
+As such, traditional methods for combating modern cybercrimes prove to be ineffective and outdated. According to \cite{sharma2024digital}, there is a large empirical gap within the research in digital forensics. Its empirical analysis of 40 digital forensic reports presents results with 82.5% vague descriptions in their research methods, with 0% providing proper literature statistics for credibility and 90% acknowledging limitations in their paper. 
 
-Follow this example to include more than one references.Several studies have investigated these approaches
-\parencite{smith2024,lee2023,ahmad2022}.
+Furthermore, the lack of standardization in digital forensics creates difficulties in cases pertaining to cybercrime, as evidence can be insufficient, its procedure of collection unrecognized in legal systems, as well as make it difficult for validity in international cases. 
+This highlights the importance of acknowledging that research in digital forensics is in its infancy, and in need of proper analysis.  
 
-\vspace{0.5cm}
-Discuss:
+In light of these issues, this report aims to propose a standard protocol in gathering digital evidence and the establishment of reliability metrics to assist legal cases by removing uncertainty, introducing objectivity, and increasing the reliability of evidence. 
 
-\begin{itemize}
-    \item What is the research topic?
-    \item What problem does it address?
-    \item Why is the problem important?
-    \item Where is the topic currently being applied?
-    \item Why is there a need to study/review this topic?
-\end{itemize}
-
-Students should support important statements with appropriate research references.
 
 
 \chapter{Literature Review (Recap)}
 
-Clearly describe the problem or issue that motivates this literature review.
-
-\vspace{0.5cm}
-Explain:
+From the literature that we’ve analysed during Assignment 1, there appears to be several broad consensus in regards to digital forensics and modern cybercrime:
 
 \begin{itemize}
-    \item What is currently known?
-    \item What problems exist?
-    \item What limitations exist in current approaches?
-    \item Why is a review of existing research necessary?
-\end{itemize}
+\item \textbf{The essentiality of digital forensics and the insufficiency of the traditional methods in combating cybercrime.} Research consistently indicates that digital forensics is vital for investigating and prosecuting cybercrimes through assisting law enforcement officers in locating, examining and protecting electronic data that can be used as digital evidence in court to identify suspects and establish legal facts. 
 
+On the other hand, traditional forensic techniques are not adequate to combat contemporary cybercrime. The sophistication of cybercrime methodology utilised by perpetrators such as encryption and anti-forensic softwares that are able to conceal their activities from relevant investigators while allowing malicious actors to evade the standard security filters; large data volumes which, when analysed through traditional means, is slow and at times impossible due to the size of the data volume are clear signals that the traditional methods are insufficient and at times detrimental against combating cybercrime, as events like security breaches can cause massive damage before investigators are able to identify them through the traditional methods.
+
+\item \textbf{Lack of standardisation in digital forensic methodologies.} Research articles obtained highlight a clear lack of standardised protocols across the field of digital forensics. Different investigators frequently apply divergent methodologies, which often leads to inconsistent analytical outcomes in resultant research articles and reports.
+
+\item \textbf{Possible upgrades towards digital forensics through AI and Zero Trust Architecture.} As cybercriminals have utilised AI software for generating steganographic code to mask hidden information while they commit cybercrimes, various articles have suggested the implementation of artificial intelligence (AI), machine learning and deep learning within digital forensics as aid against said AI-based attacks. Through proper utilisation of AI as an assistant in digital forensics, systems are able to analyse large datasets in a short time, automate dull and repetitive duties and identify possible configurations that human investigators may overlook. This allows professionals to operate with much greater speed and precision in comparison.
+
+In terms of Zero Trust, a couple of research articles proposed utilising a Zero Trust Architecture, which operates on a “never trust, always verify” mantra. This allows for a much more effective protection mechanism against complex cyber threats and deceptive email campaigns. Besides that, they also suggest implementing a layered defense strategy as well, to better filter out cyberthreats alongside providing safe and secure protection against critical assets.
+
+\end{itemize}
 
 \chapter{Problem Statement}
 
-State the objectives of the review article.
+\section{Context}
+Present-day Investigators specializing in digital forensics have a critical role in providing assistance to law enforcement in regards to digital crimes, particularly ones involving computers. These specialists influence how electronic data is collected, examined and stored for legal cases, determining how attorneys may approach or strategize their court proceedings.
 
-\vspace{0.5cm}
-For example:
+As crimes on the internet become increasingly complex, such as advanced persistent threats (APTs), ransomware, deepfakes and methods that disrupt or even prevent investigations, legal systems will consequently depend heavily on digital data as evidence.
 
-\begin{enumerate}
-    \item To review existing research related to [topic].
-    \item To compare the approaches used by different researchers.
-    \item To analyse the findings and limitations of existing studies.
-    \item To identify research gaps and potential future research directions.
-\end{enumerate}
+In many nations, judges follow a standard such as the Daubert criteria (\cite{carranza2021software}). As such, it is expected that the courts require specialists to show their method of gathering data has specified measured mistakes, have undergone checks by other scientists, and ultimately approved by the scientific community.
 
+\section{Gap}
+The field of digital forensics lacks uniform procedures for its operations. According to \cite{sharma2024digital}, where a study of 40 digital forensic reports was made, researchers found multiple specific weaknesses. The findings reveal that 33 of those documents used unclear language to describe how investigators performed their tasks. There is no instance where the authors included mathematical data to prove consistency or accuracy in their results. 
+
+Despite 36 reports addressing flaws through noting constraints existing in their studies, the specific quantitative data measuring the frequency of mistakes were not included in their articles. 
+
+As previously indicated, the lack of fixed rules causes different specialists to reach different conclusions when they examine identical datasets. As a result, the process of repeating investigations to verify results proves difficult for investigators to achieve. 
+
+Considering these factors, legal systems may refuse to accept digital evidence as viable proof. Paradoxically however, there does not exist a system to measure the trust a user can place in digital data. This information is crucial in providing the framework for specialists to gather data, such as the storage logs remaining intact and the details on when events occurred. 
+
+Additionally, the legal system is currently without concrete rules to determine how much importance a judge should give to this evidence.
+
+\section{Solution}
+We propose a process where investigators use a uniform digital forensic protocol and a system that measures reliability through quantitative data to evaluate digital evidence. The protocol describes the required steps during every forensic stage, including how investigators identify, collect, preserve, examine, analyze and report data. Moreover, we incorporated a reliability metric that assigns a numerical score between one and ten based on factors that researchers have validated through observation.
+
+The factors as mentioned include the method used to acquire data, the rate at which data changes, the time taken before recovery as well as the degree of completion in the chain of custody. 
+
+By creating a framework that experts can successfully repeat and explain clearly, it is anticipated that uncertainty will be removed, resulting in legal systems being able to admit digital evidence based on facts. Ultimately, this paper aims to create a method for electronic files to be consistent and neutral to ease the process of legal evaluations on computer crimes. 
 
 \chapter{Research Questions}
 
-Develop 2--4 research questions that guide the review.
+The 4 Research Questions for this specific Research Proposal is as follows:
 
 \vspace{0.2cm}
 
-For Example:
-
-
-\textbf{RQ1:} What approaches have been used to address [research problem]?
+\textbf{RQ1:} There are many current commonly used digital forensic techniques. What are they and what are the flaws in the documentation and consistency of these techniques?
 
 \vspace{0.2cm}
 
-\textbf{RQ2:} What are the major findings reported in existing studies?
+\textbf{RQ2:} What is required in a standard digital forensic protocol that would enhance consistency, repeatability and court admissibility of digital evidence in a variety of forensic cases?
 
 \vspace{0.2cm}
 
-\textbf{RQ3:} What are the limitations of the existing approaches?
+\textbf{RQ3:} What makes digital evidence reliable and how can this be quantified for use within the court system to evaluate the reliability of digital evidence?
 
 \vspace{0.2cm}
 
-\textbf{RQ4:} What research gaps and future opportunities can be identified?
+\textbf{RQ4:} How does adopting a standard forensic protocol and a reliability system enhance the repeatability of forensic analysis and the admissibility of digital evidence within a mock court setting?
 
 
 % =========================================
 % 2. REVIEW METHODOLOGY
 % =========================================
 
-\chapter{Review Methodology}
+\chapter{Review Objectives}
 
-Explain how the group conducted the literature review.
+\section{Objective 1 (Addresses RQ1)}
 
+To systematically identify, analyse and document the current commonly used digital forensic techniques and the flaws in their documentation and consistency by conducting a comprehensive systematic literature review of peer-reviewed studies published between 2021 and 2026, extracting procedural steps, documentation practices, consistency and repeatability issues, and reported limitations across at least 50 relevant studies within the first six months of the project.
 
-\section{Literature Search Strategy}
-
-Describe:
+\textbf{SMART Criteria}
 
 \begin{itemize}
-    \item Databases/search engines used
-    \item Search keywords
-    \item Search strings
-    \item Publication period
-    \item Type of publications considered\newline
+    \item \textbf{Specific}: Identify commonly used digital forensic techniques and analyse flaws in documentation and consistency.
+    \item \textbf{Measurable}: Review minimum 50 peer-reviewed articles; extract and categorise techniques, procedural steps, documentation practices, consistency indicators, and stated limitations.
+    \item \textbf{Achievable}: Access IEEE Xplore, ScienceDirect, and ACM Digital Library through institutional subscriptions.
+    \item \textbf{Relevant}: Establishes the empirical foundation for identifying what a standardised protocol must address.
+    \item \textbf{Time-bound}: Completed within Months 1–2 of the project timeline.
+\end{itemize}
+
+\section{Objective 2 (Addresses RQ2)}
+
+To design and develop a standardised digital forensic protocol that integrates best practices from existing frameworks (NIST, ACPO, ISO/IEC 27037) into a unified, phase-by-phase procedure with mandatory documentation requirements, explicitly structured to enhance consistency, repeatability and court admissibility of digital evidence across a variety of forensic cases, validated through expert review by at least five certified digital forensic practitioners and achieving $\geq 80\%$ expert consensus via the Delphi method within nine months of project commencement.
+
+\textbf{SMART Criteria}
+
+\begin{itemize}
+    \item \textbf{Specific}: Create a comprehensive protocol covering identification, collection, preservation, examination, analysis, and reporting, including documentation templates, repeatability controls, and admissibility mapping.
+    \item \textbf{Measurable}: Protocol must include minimum 40 discrete procedural steps; achieve >=80\% expert consensus via Delphi method; validated by at least five certified practitioners.
+    \item \textbf{Achievable}: Based on established standards and iterative expert feedback.
+    \item \textbf{Relevant}: Directly addresses the standardisation, consistency and admissibility gaps identified in RQ1 and RQ2.
+    \item \textbf{Time-bound}: Draft completed by Month 4; expert validation completed by Month 10.
+\end{itemize}
+
+\section{Objective 3 (Addresses RQ3)}
+
+To formulate and validate a reliability metric system for digital evidence that defines the factors of making digital evidence reliable and assigns quantifiable scores (1–10 scale) based on empirically derived weightings for the acquisition method, evidence volatility, temporal delay, chain of custody integrity, and tool validation status, tested against a corpus of at least 100 historical forensic cases to establish scoring accuracy and inter-rater reliability (Cohen’s $\kappa \geq 0.80$) and to assess its usability within the court system within twelve months of project commencement.
+
+\textbf{SMART Criteria}
+
+\begin{itemize}
+    \item \textbf{Specific}: Develop a numerical scoring system for digital evidence reliability and define the underlying reliability constructs for court evaluation.
+    \item \textbf{Measurable}: Validate against 100 cases; achieve Cohen’s $\kappa \geq 0.80$ for inter-rater reliability; document scoring accuracy compared to expert consensus; assess court usability.
+    \item \textbf{Achievable}: Historical case data available through law enforcement partnerships and public court records.
+    \item \textbf{Relevant}: Provides courts with objective criteria for assessing evidentiary weight and reliability.
+    \item \textbf{Time-bound}: Metric developed by Month 10; validation completed by Month 11.
+\end{itemize}
+
+\section{Objective 4 (Addresses RQ4)}
+
+To empirically evaluate the effectiveness of the proposed standardised protocol and reliability metric through a controlled experimental study comparing forensic outcomes (reliability scores, reproducibility via Cohen’s Kappa, error rates, and processing latency) between the standardised protocol and baseline ad hoc methodologies across at least 20 simulated forensic scenarios, and through a mock court setting assessing the repeatability of forensic analysis and the admissibility of digital evidence, with results demonstrating statistically significant improvement (p < 0.05) in reproducibility and error reduction within eighteen months of project commencement.
+
+\textbf{SMART Criteria}
+
+\begin{itemize}
+    \item \textbf{Specific}: Conduct controlled experiments comparing standardised vs. ad hoc protocols, plus a mock court assessment of repeatability and admissibility.
+    \item \textbf{Measurable}: 20+ scenarios; statistical significance at p < 0.05; improvement in Cohen’s $\kappa$ and error rate reduction documented; mock court admissibility ratings collected.
+    \item \textbf{Achievable}: Utilises established forensic datasets, controlled laboratory conditions, and mock court participants such as legal practitioners or mock judges.
+    \item \textbf{Relevant}: Provides empirical evidence for protocol efficacy, repeatability, and legal defensibility.
+    \item \textbf{Time-bound}: Experimental design finalised by Month 10; data collection completed by Month 5; mock court assessment and analysis completed by Month 11.
 \end{itemize}
 
 
-Example databases:
+\chapter{Research Methodology}
 
-\begin{itemize}
-    \item Scopus
-    \item Web of Science
-    \item IEEE Xplore
-    \item ScienceDirect
-    \item SpringerLink
-    \item ACM Digital Library
-    \item Google Scholar
-\end{itemize}
+\section{Research Design}
 
+In terms of Research Design, we’ve elected to use an empirical evaluation design through the methodology of controlled and repeated measures. The methodology will require forensic datasets, which will be used to be processed through the proposed standardised protocol alongside the baseline ad hoc protocols, while using constants to ensure that the protocol is the only systematically varied factor besides from the type of evidence obtained from the dataset. Afterwards, each condition obtained from the processed protocols will be run through independent trials from varying pipeline instances to support significance testing alongside providing multiple evidence samples per category to avoid cramming all the conclusions into a single case.
 
-\section{Inclusion and Exclusion Criteria}
+The dependent variables for this methodology would be the reliability score for each protocol, the reproducibility of the results amongst analysts (through Cohen’s $\kappa$), integrity of the evidence from the chain of custody, time taken for protocols to produce a report and the error rate in comparison to the ground truth.
 
-Describe the criteria used to determine which research articles were included in or excluded from the review.
+The main reasoning behind using empirical evaluation is that in accordance to the reliability queries under the Daubert standard, a legal report reliability claim is required to have a known, repeatable and quantifiable error rate alongside the procedure being tested, peer-reviewed, published and generally accepted by the relevant community, in this situation being the Digital Forensics field (\cite{carranza2021software}). Through the use of a controlled empirical design and by the nature of the protocol being the sole variable in said environment, we are able to obtain a known error rate with statistical confidence. In terms of using other designs, the ground truth cannot be obtained from methods such as analysing the data obtained from live caseworks as there is no independently verifiable correct answer from said cases, hence an error rate is unable to be measured using said design and it can be deemed that empirical evaluation is the best suited for this specific research.
 
-\textbf{Inclusion criteria may include:}
+\section {Technical Approach}
 
-\begin{itemize}
-    \item Articles directly related to the selected research topic
-    \item Peer-reviewed research articles
-    \item Articles published within the selected publication period
-    \item Articles indexed in the selected academic databases
-    \item Articles available in full text
-\end{itemize}
+\section{Data Tools}
 
-\textbf{Exclusion criteria may include:}
+\section{Evaluation Criteria}
 
-\begin{itemize}
-    \item Articles outside the scope of the research topic
-    \item Duplicate publications
-    \item Non-peer-reviewed publications
-    \item Articles outside the selected publication period
-    \item Articles without sufficient methodological or research information
-\end{itemize}
-
-\end{justify}
-
-% =========================================
-% SAMPLE TABLE
-% =========================================
+To ensure the resulted outcome from the protocols are able to hold up against legal scrutiny, we deem it necessary to utilise the metrics shown in Table X in order to better showcase the protocols functionalities in three distinct factors: Is the protocol developed compliant with its reliability, can the resultant outcome be reproduced and how precise and accurate is said outcome.
 
 \begin{table}[H]
-\caption{Inclusion and exclusion criteria used for the literature review}
+\caption{Metrics used for Evaluating the Protocols}
 \label{tab:inclusion-exclusion}
 
 \fontsize{10pt}{12pt}\selectfont
 
 \begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
 \hline
-\centering\textbf{Criteria} &
-\centering\textbf{Inclusion} &
-\centering\textbf{Exclusion}
+\centering\textbf{Metric} &
+\centering\textbf{Definition} &
+\centering\textbf{Factor Showcased}
 \tabularnewline
 \hline
 
-\centering Publication type &
-\centering Peer-reviewed research articles &
-\centering Non-peer-reviewed articles
+\centering Reliability Score &
+\centering Primary outcome in comparison to protocol condition (Range of 0 to 1) &
+\centering Is the protocol compliant with its reliability
 \tabularnewline
 \hline
 
-\centering Publication period &
-\centering [e.g., 2021--2026] &
-\centering Articles outside selected period
+\centering Cohen’s Kappa coefficient ($\kappa$) &
+\centering Reproducibility of outcome using identical evidence/dataset ($\kappa \geq 0.8$, strong agreement in reproducibility) &
+\centering Can the resultant outcome be reproduced
 \tabularnewline
 \hline
 
-\centering Language &
-\centering English &
-\centering Other languages
+\centering Chain of custody Integrity Rate &
+\centering Rate of verification between hash chain nodes without any breaks between &
+\centering Is the protocol compliant with its reliability
 \tabularnewline
 \hline
 
-\centering Topic &
-\centering Directly related to selected topic &
-\centering Not directly related
+\centering Latency (ms or hours) &
+\centering Wall clock time taken for each pipeline stage (end to end) &
+\centering Is the protocol compliant with its reliability
 \tabularnewline
 \hline
 
-\centering Full text &
-\centering Full-text available &
-\centering Full text unavailable
+\centering Error Rate &
+\centering (False Positive + False Negative findings) / Ground Truth findings &
+\centering How precise is the outcome
+\tabularnewline
+\hline
+
+\centering F1 score &
+\centering Harmonic mean of precision and recall [( 2 * Precision * Recall) / (Precision + Recall)] &
+\centering How accurate is the outcome
 \tabularnewline
 \hline
 
@@ -360,84 +379,22 @@ Describe the criteria used to determine which research articles were included in
 
 \end{table}
 
-This is a sample table. Tables should be placed in the main text near to the first time they are cited, with the caption on top and left aligned. The font of the table caption is size 9 and the content in the table is size 10.
+\chapter{Expected Outcomes}
 
+\chapter{Project Timeline}
 
-
-% =========================================
-% SAMPLE FIGURE
-% =========================================
+For the expected timeframe for each section of the Research Project itself, Figure 4 below showcases the estimated timeline of events for the Research Project. It is to note that the milestones for the project is highlighted red while the checkpoints for the project is highlighted blue.
 
 \begin{figure}[H]
     \centering
 
     \fbox{%
-        \includegraphics[width=0.80\textwidth]{figures/Prisma.jpg}%
+        \includegraphics[width=0.80\textwidth]{figures/Timeline.png}%
     }
 
-    \caption{PRISMA flow diagram of the study selection process.}
-    \label{fig:prisma}
+    \caption{Project Timeline for our Research Project}
+    \label{fig:timeline}
 \end{figure}
-
-
-This is a figure. All figures should be centred with figure caption following the sequence Figure 1, Figure 2, and so on. The caption should also be centred. The caption for figures should be size 9.
-
-
-
-\section{Article Selection}
-
-Each student must review \textbf{at least 3 research articles}.
-
-Therefore:
-
-\begin{itemize}
-    \item \textbf{Minimum articles per student = 3}
-    \item \textbf{Minimum articles per group = 12}
-\end{itemize}
-
-The group may use more than 12 articles if necessary.
-
-Explain how the final articles were selected for the review.
-
-% =========================================
-% 8. DISCUSSION
-% =========================================
-
-\chapter{Expected Outcomes}
-
-Provide an overall critical discussion of the literature.
-
-The discussion should answer:
-
-\begin{itemize}
-    \item What has the research community achieved so far?
-    \item Which approaches are most promising?
-    \item What are the major challenges?
-    \item Are the current approaches sufficient?
-    \item What limitations remain?
-    \item How has the research area evolved?
-    \item What important issues remain unresolved?
-\end{itemize}
-
-This section should demonstrate \textbf{critical thinking}, not merely summarisation.
-
-\chapter{Project Timeline}
-
-Provide an overall critical discussion of the literature.
-
-The discussion should answer:
-
-\begin{itemize}
-    \item What has the research community achieved so far?
-    \item Which approaches are most promising?
-    \item What are the major challenges?
-    \item Are the current approaches sufficient?
-    \item What limitations remain?
-    \item How has the research area evolved?
-    \item What important issues remain unresolved?
-\end{itemize}
-
-This section should demonstrate \textbf{critical thinking}, not merely summarisation.
 
 % =========================================
 % 9. CONCLUSION
@@ -458,6 +415,8 @@ The conclusion should:
 \end{itemize}
 
 Do not introduce completely new information or references in the conclusion.
+
+\end{justify}
 
 % =========================================
 % REFERENCES

@@ -1,13 +1,21 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Background}{5}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Literature Review (Recap)}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Literature Review (Recap)}{5}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Problem Statement}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Research Questions}{8}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Review Methodology}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Literature Search Strategy}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Inclusion and Exclusion Criteria}{10}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Article Selection}{11}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Expected Outcomes}{13}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Project Timeline}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusion}{15}{chapter.8}%
-\contentsline {section}{References}{16}{section*.4}%
+\contentsline {section}{\numberline {3.1}Context}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Gap}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Solution}{8}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Research Questions}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Review Objectives}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Objective 1 (Addresses RQ1)}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Objective 2 (Addresses RQ2)}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Objective 3 (Addresses RQ3)}{11}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Objective 4 (Addresses RQ4)}{12}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Research Methodology}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Research Design}{13}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Technical Approach}{14}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Data Tools}{14}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Evaluation Criteria}{14}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Expected Outcomes}{15}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Project Timeline}{16}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Conclusion}{17}{chapter.9}%
+\contentsline {section}{References}{18}{section*.4}%
