@@ -3072,9 +3072,18 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">sharma2024digital</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">carranza2021software</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">sharma2024digital</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">carranza2021software</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">arif2025unveiling</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">ilyas2024role</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">ilyas2024role</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">arif2025unveiling</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">sharma2024digital</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">osamor2026comprehensive</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">sanna2025improving</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">prajwalasimha2025ai</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">arif2025unveiling</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">carranza2021software</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">sharma2024digital</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">carranza2021software</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

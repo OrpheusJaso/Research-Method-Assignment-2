@@ -19,6 +19,51 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{arif2025unveiling}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6310aabf93040d2896c6b7e4e94a68ce}{%
+           family={Arif},
+           familyi={A\bibinitperiod},
+           given={Tuba},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f33bd78882912296d498cc2a24c624e}{%
+           family={Camacho},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d80f5a5e858e8ace83db34aafb95bc79}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jong\bibnamedelima Hyuk},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8f79583ed47ee2adfc982f0771c3d52d}
+      \strng{fullhash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{fullhashraw}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{bibnamehash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authorbibnamehash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authornamehash}{8f79583ed47ee2adfc982f0771c3d52d}
+      \strng{authorfullhash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authorfullhashraw}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{title}{Unveiling cybersecurity mysteries: A comprehensive survey on digital forensics trends, threats, and solutions in network security}
+      \field{year}{2025}
+      \field{pages}{104296}
+      \range{pages}{1}
+    \endentry
     \entry{carranza2021software}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=0aeec03fb80fd85a07e6c435bdfa7709}{%
@@ -53,6 +98,236 @@
       \field{title}{Software validation and daubert standard compliance of an open digital forensics model}
       \field{volume}{2}
       \field{year}{2021}
+    \endentry
+    \entry{ilyas2024role}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a56202898475e150e64485a292aacdf}{%
+           family={Ilyas},
+           familyi={I\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{fullhash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{fullhashraw}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{bibnamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorbibnamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authornamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorfullhash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorfullhashraw}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pakistan Journal of Criminology}
+      \field{number}{4}
+      \field{title}{The Role of Digital Forensics in Criminal Investigations: An Analysis of Electronic Evidence in the Indonesian Legal System.}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{255}
+      \range{pages}{1}
+    \endentry
+    \entry{osamor2026comprehensive}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=d5f63f8925559624824f521162759ebb}{%
+           family={Osamor},
+           familyi={O\bibinitperiod},
+           given={Jude},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=295b18a016f0a3906147f39a4ee0a1e0}{%
+           family={Akerele},
+           familyi={A\bibinitperiod},
+           given={Ireti},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34d3a920c379775364c3d2e0d7635b54}{%
+           family={Lawal},
+           familyi={L\bibinitperiod},
+           given={Azeezat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c93005c25ae1689944038cbd4d9f0e}{%
+           family={Osisami},
+           familyi={O\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11fea528a40e02c03b57210979c45bfd}{%
+           family={Aniekwe},
+           familyi={A\bibinitperiod},
+           given={Chioma},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce1939fc53d14f4ae45d66ec6c5386ec}{%
+           family={Omoleye},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26a5870ddc94ec31b72b09608731b158}{%
+           family={Adedamola},
+           familyi={A\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a8fc04418bcf0c8f4e8fb491666847e}{%
+           family={Olakunle},
+           familyi={O\bibinitperiod},
+           given={Remilekun},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54e9375d782b960bb177a71c8530d2f2}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Abu\bibnamedelima Divine},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d8313442883b2d0efbbb34f2e75ae67}{%
+           family={Christopher},
+           familyi={C\bibinitperiod},
+           given={Dorathy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d6bfe8f0dd8192f23b3664e9f6d53fa3}
+      \strng{fullhash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{fullhashraw}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{bibnamehash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authorbibnamehash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authornamehash}{d6bfe8f0dd8192f23b3664e9f6d53fa3}
+      \strng{authorfullhash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authorfullhashraw}{4cdd48bedb079cf52131fcdc956bc14f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2026 International Conference on Signal Analysis for Smart Systems (SIGNASS)}
+      \field{title}{Comprehensive Forensic Analysis of a Spoofed Microsoft Email: A NIST Incident Response Approach}
+      \field{year}{2026}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{prajwalasimha2025ai}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0dc6ec83fae1935a087a5c546b7cc707}{%
+           family={Prajwalasimha},
+           familyi={P\bibinitperiod},
+           given={SN},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba7912065d7e45bf0cb3bcdb53ce84d1}{%
+           family={Shelke},
+           familyi={S\bibinitperiod},
+           given={Nilesh},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4462a673f11003bf012ad14a9c30811}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={Dilip\bibnamedelimb Kumar\bibnamedelimb Jang\bibnamedelima Bahadur},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b614cff9cae148f7bced8da45983782f}{%
+           family={Pimpalkar},
+           familyi={P\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f646e3096dd597d15a542dcd6c11f332}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={G\bibnamedelima Hemanth},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5710363f214104eb7dd142e9a6af1da9}{%
+           family={Shivamma},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{020b77e68c4d05c79903c782df0c1bf3}
+      \strng{fullhash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{fullhashraw}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{bibnamehash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authorbibnamehash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authornamehash}{020b77e68c4d05c79903c782df0c1bf3}
+      \strng{authorfullhash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authorfullhashraw}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)}
+      \field{title}{AI-powered defense against advanced persistent threats (APTs): Techniques, case studies, and future research directions}
+      \field{year}{2025}
+      \field{pages}{826\bibrangedash 831}
+      \range{pages}{6}
+    \endentry
+    \entry{sanna2025improving}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a6edc72d03d2e2c27917f17198b28b5e}{%
+           family={Sanna},
+           familyi={S\bibinitperiod},
+           given={Silvia\bibnamedelima Lucia},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bd9ddcfcbc5fc7cc4b156ff9725f98d}{%
+           family={Regano},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd055e3b5bea8ec4a965e80a0088ddf9}{%
+           family={Maiorca},
+           familyi={M\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3559d6add08fc49777f216fbcd5bdc7}{%
+           family={Giacinto},
+           familyi={G\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9353c75217d778e04d7e2f667acae4f1}
+      \strng{fullhash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{fullhashraw}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{bibnamehash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authorbibnamehash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authornamehash}{9353c75217d778e04d7e2f667acae4f1}
+      \strng{authorfullhash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authorfullhashraw}{018c5ac9d74b938ab6209558fb99b7d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2510.14638}
+      \field{title}{Improving cybercrime detection and digital forensics investigations with artificial intelligence}
+      \field{year}{2025}
     \endentry
     \entry{sharma2024digital}{article}{}{}
       \name{author}{1}{}{%
@@ -89,6 +364,51 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{arif2025unveiling}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6310aabf93040d2896c6b7e4e94a68ce}{%
+           family={Arif},
+           familyi={A\bibinitperiod},
+           given={Tuba},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f33bd78882912296d498cc2a24c624e}{%
+           family={Camacho},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d80f5a5e858e8ace83db34aafb95bc79}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jong\bibnamedelima Hyuk},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8f79583ed47ee2adfc982f0771c3d52d}
+      \strng{fullhash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{fullhashraw}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{bibnamehash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authorbibnamehash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authornamehash}{8f79583ed47ee2adfc982f0771c3d52d}
+      \strng{authorfullhash}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \strng{authorfullhashraw}{ceb7c9c84cb8e120e96ee773be7c64f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{title}{Unveiling cybersecurity mysteries: A comprehensive survey on digital forensics trends, threats, and solutions in network security}
+      \field{year}{2025}
+      \field{pages}{104296}
+      \range{pages}{1}
+    \endentry
     \entry{carranza2021software}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=0aeec03fb80fd85a07e6c435bdfa7709}{%
@@ -123,6 +443,236 @@
       \field{title}{Software validation and daubert standard compliance of an open digital forensics model}
       \field{volume}{2}
       \field{year}{2021}
+    \endentry
+    \entry{ilyas2024role}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a56202898475e150e64485a292aacdf}{%
+           family={Ilyas},
+           familyi={I\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{fullhash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{fullhashraw}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{bibnamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorbibnamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authornamehash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorfullhash}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \strng{authorfullhashraw}{44a90a2b3a4fc77c2526d0b0893953ee}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pakistan Journal of Criminology}
+      \field{number}{4}
+      \field{title}{The Role of Digital Forensics in Criminal Investigations: An Analysis of Electronic Evidence in the Indonesian Legal System.}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{255}
+      \range{pages}{1}
+    \endentry
+    \entry{osamor2026comprehensive}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=d5f63f8925559624824f521162759ebb}{%
+           family={Osamor},
+           familyi={O\bibinitperiod},
+           given={Jude},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=295b18a016f0a3906147f39a4ee0a1e0}{%
+           family={Akerele},
+           familyi={A\bibinitperiod},
+           given={Ireti},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34d3a920c379775364c3d2e0d7635b54}{%
+           family={Lawal},
+           familyi={L\bibinitperiod},
+           given={Azeezat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5c93005c25ae1689944038cbd4d9f0e}{%
+           family={Osisami},
+           familyi={O\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11fea528a40e02c03b57210979c45bfd}{%
+           family={Aniekwe},
+           familyi={A\bibinitperiod},
+           given={Chioma},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce1939fc53d14f4ae45d66ec6c5386ec}{%
+           family={Omoleye},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26a5870ddc94ec31b72b09608731b158}{%
+           family={Adedamola},
+           familyi={A\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a8fc04418bcf0c8f4e8fb491666847e}{%
+           family={Olakunle},
+           familyi={O\bibinitperiod},
+           given={Remilekun},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54e9375d782b960bb177a71c8530d2f2}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Abu\bibnamedelima Divine},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d8313442883b2d0efbbb34f2e75ae67}{%
+           family={Christopher},
+           familyi={C\bibinitperiod},
+           given={Dorathy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d6bfe8f0dd8192f23b3664e9f6d53fa3}
+      \strng{fullhash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{fullhashraw}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{bibnamehash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authorbibnamehash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authornamehash}{d6bfe8f0dd8192f23b3664e9f6d53fa3}
+      \strng{authorfullhash}{4cdd48bedb079cf52131fcdc956bc14f}
+      \strng{authorfullhashraw}{4cdd48bedb079cf52131fcdc956bc14f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2026 International Conference on Signal Analysis for Smart Systems (SIGNASS)}
+      \field{title}{Comprehensive Forensic Analysis of a Spoofed Microsoft Email: A NIST Incident Response Approach}
+      \field{year}{2026}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{prajwalasimha2025ai}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0dc6ec83fae1935a087a5c546b7cc707}{%
+           family={Prajwalasimha},
+           familyi={P\bibinitperiod},
+           given={SN},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba7912065d7e45bf0cb3bcdb53ce84d1}{%
+           family={Shelke},
+           familyi={S\bibinitperiod},
+           given={Nilesh},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4462a673f11003bf012ad14a9c30811}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={Dilip\bibnamedelimb Kumar\bibnamedelimb Jang\bibnamedelima Bahadur},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b614cff9cae148f7bced8da45983782f}{%
+           family={Pimpalkar},
+           familyi={P\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f646e3096dd597d15a542dcd6c11f332}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={G\bibnamedelima Hemanth},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5710363f214104eb7dd142e9a6af1da9}{%
+           family={Shivamma},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{020b77e68c4d05c79903c782df0c1bf3}
+      \strng{fullhash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{fullhashraw}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{bibnamehash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authorbibnamehash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authornamehash}{020b77e68c4d05c79903c782df0c1bf3}
+      \strng{authorfullhash}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \strng{authorfullhashraw}{421bb86f9d3b31d1e2d7a7dccbd00f3a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2025 3rd International Conference on Sustainable Computing and Data Communication Systems (ICSCDS)}
+      \field{title}{AI-powered defense against advanced persistent threats (APTs): Techniques, case studies, and future research directions}
+      \field{year}{2025}
+      \field{pages}{826\bibrangedash 831}
+      \range{pages}{6}
+    \endentry
+    \entry{sanna2025improving}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a6edc72d03d2e2c27917f17198b28b5e}{%
+           family={Sanna},
+           familyi={S\bibinitperiod},
+           given={Silvia\bibnamedelima Lucia},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bd9ddcfcbc5fc7cc4b156ff9725f98d}{%
+           family={Regano},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd055e3b5bea8ec4a965e80a0088ddf9}{%
+           family={Maiorca},
+           familyi={M\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3559d6add08fc49777f216fbcd5bdc7}{%
+           family={Giacinto},
+           familyi={G\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9353c75217d778e04d7e2f667acae4f1}
+      \strng{fullhash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{fullhashraw}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{bibnamehash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authorbibnamehash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authornamehash}{9353c75217d778e04d7e2f667acae4f1}
+      \strng{authorfullhash}{018c5ac9d74b938ab6209558fb99b7d6}
+      \strng{authorfullhashraw}{018c5ac9d74b938ab6209558fb99b7d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2510.14638}
+      \field{title}{Improving cybercrime detection and digital forensics investigations with artificial intelligence}
+      \field{year}{2025}
     \endentry
     \entry{sharma2024digital}{article}{}{}
       \name{author}{1}{}{%
