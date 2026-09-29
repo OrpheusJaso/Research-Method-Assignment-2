@@ -12,10 +12,21 @@
 \contentsline {section}{\numberline {5.4}Objective 4 (Addresses RQ4)}{10}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Research Methodology}{12}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Research Design}{12}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Technical Approach}{13}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Data Tools}{13}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Evaluation Criteria}{13}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Assumptions \& Dependencies}{13}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7}Expected Outcomes}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Project Timeline}{15}{chapter.8}%
-\contentsline {section}{References}{17}{section*.5}%
+\contentsline {section}{\numberline {6.2}Technical Approach}{12}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Evidence Type}{12}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}General Principles}{14}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Protocol Layers}{15}{subsection.6.2.3}%
+\contentsline {subsubsection}{Protocol 1: Identification}{15}{section*.5}%
+\contentsline {subsubsection}{Protocol 2: Preservation \& Acquisition}{16}{section*.6}%
+\contentsline {subsubsection}{Protocol 3: Verification \& Preparation}{17}{section*.7}%
+\contentsline {subsubsection}{Protocol 4: Examination \& Analysis}{17}{section*.8}%
+\contentsline {subsubsection}{Protocol 5: Reporting}{19}{section*.9}%
+\contentsline {section}{\numberline {6.3}Data Tools}{20}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1} Selection justification}{21}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Evaluation Criteria}{21}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Assumptions \& Dependencies}{22}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}The Delphi Method}{22}{subsection.6.4.2}%
+\contentsline {chapter}{\numberline {7}Expected Outcomes}{23}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Project Timeline}{24}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conclusion}{25}{section.8.1}%
+\contentsline {section}{References}{26}{section*.14}%

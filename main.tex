@@ -20,6 +20,11 @@
 \usepackage{ragged2e}       % Text alignment
 \usepackage{setspace}       % Line spacing
 \usepackage{hyperref}       % Clickable links and references
+\usepackage{pifont}
+\usepackage{tabularx}
+\usepackage{array}
+\newcommand{\checkbox}{\ding{113}}
+\newcommand{\checkedbox}{\ding{51}}
 % =========================================
 % APA REFERENCING
 % =========================================
@@ -94,7 +99,7 @@
 \textbf{Course:} CPT6123\\
 \textbf{Lecturer:} Rohana Binti Mydin\\
 \textbf{Semester:} 2620\\
-\textbf{Submission Date:} 27th September 2026
+\textbf{Submission Date:} 29 September 2026
 }
 
 \end{center}
@@ -146,7 +151,7 @@ The present state of computer science allows for constant advancement in technol
 
 However, this ability to rapidly improve is an emerging problem, as the sophisticated attacks; deepfakes, phishing, automation of malware, combined with this age of interconnected devices, the Internet of Things (IoT) give rise to more complications in updating the defenses against these attacks. 
 
-As such, traditional methods for combating modern cybercrimes prove to be ineffective and outdated. According to \cite{sharma2024digital}, there is a large empirical gap within the research in digital forensics. Its empirical analysis of 40 digital forensic reports presents results with 82.5\% vague descriptions in their research methods, with 0% providing proper literature statistics for credibility and 90% acknowledging limitations in their paper. 
+As such, traditional methods for combating modern cybercrimes prove to be ineffective and outdated. According to \cite{sharma2024digital}, there is a large empirical gap within the research in digital forensics. Its empirical analysis of 40 digital forensic reports presents results with 82.5\% vague descriptions in their research methods, with 0\% providing proper literature statistics for credibility and 90\% acknowledging limitations in their paper. 
 
 Furthermore, the lack of standardization in digital forensics creates difficulties in cases pertaining to cybercrime, as evidence can be insufficient, its procedure of collection unrecognized in legal systems, as well as make it difficult for validity in international cases. 
 This highlights the importance of acknowledging that research in digital forensics is in its infancy, and in need of proper analysis.  
@@ -229,7 +234,7 @@ The 4 Research Questions for this specific Research Proposal is as follows:
 \section{Objective 1 (Addresses RQ1)}
 
 To systematically identify, analyse and document the current commonly used digital forensic techniques and the flaws in their documentation and consistency by conducting a comprehensive systematic literature review of peer-reviewed studies published between 2021 and 2026, extracting procedural steps, documentation practices, consistency and repeatability issues, and reported limitations across at least 50 relevant studies within the first six months of the project.
-
+\\
 \textbf{SMART Criteria}
 
 \begin{itemize}
@@ -243,7 +248,7 @@ To systematically identify, analyse and document the current commonly used digit
 \section{Objective 2 (Addresses RQ2)}
 
 To design and develop a standardised digital forensic protocol that integrates best practices from existing frameworks (NIST, ACPO, ISO/IEC 27037) into a unified, phase-by-phase procedure with mandatory documentation requirements, explicitly structured to enhance consistency, repeatability and court admissibility of digital evidence across a variety of forensic cases, validated through expert review by at least five certified digital forensic practitioners and achieving $\geq 80\%$ expert consensus via the Delphi method within nine months of project commencement.
-
+\\
 \textbf{SMART Criteria}
 
 \begin{itemize}
@@ -257,7 +262,7 @@ To design and develop a standardised digital forensic protocol that integrates b
 \section{Objective 3 (Addresses RQ3)}
 
 To formulate and validate a reliability metric system for digital evidence that defines the factors of making digital evidence reliable and assigns quantifiable scores (1–10 scale) based on empirically derived weightings for the acquisition method, evidence volatility, temporal delay, chain of custody integrity, and tool validation status, tested against a corpus of at least 100 historical forensic cases to establish scoring accuracy and inter-rater reliability (Cohen’s $\kappa \geq 0.80$) and to assess its usability within the court system within twelve months of project commencement.
-
+\\
 \textbf{SMART Criteria}
 
 \begin{itemize}
@@ -271,7 +276,7 @@ To formulate and validate a reliability metric system for digital evidence that 
 \section{Objective 4 (Addresses RQ4)}
 
 To empirically evaluate the effectiveness of the proposed standardised protocol and reliability metric through a controlled experimental study comparing forensic outcomes (reliability scores, reproducibility via Cohen’s Kappa, error rates, and processing latency) between the standardised protocol and baseline ad hoc methodologies across at least 20 simulated forensic scenarios, and through a mock court setting assessing the repeatability of forensic analysis and the admissibility of digital evidence, with results demonstrating statistically significant improvement (p < 0.05) in reproducibility and error reduction within eighteen months of project commencement.
-
+\\
 \textbf{SMART Criteria}
 
 \begin{itemize}
@@ -295,7 +300,290 @@ The main reasoning behind using empirical evaluation is that in accordance to th
 
 \section {Technical Approach}
 
+\subsection{Evidence Type}
+The following table outlines the scope of the digital forensic domains to be tested against the proposed standardized protocol, with a focus on corresponding evidence types.
+
+\begin{table}[H]
+\caption{Evidence Types}
+\label{tab:inclusion-exclusion}
+
+\fontsize{10pt}{12pt}\selectfont
+
+\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\hline
+Domain & Evidence Type & Example Findings\\
+\hline
+Disk & Forensic disk image & 1.Deleted Files \newline 2.File metadata \newline 3.Documents\\
+\hline
+Network & PCAP/network capture & 1.Port scans \newline 2.Phishing traffic \newline 3.Suspicious DNS requests\\
+\hline
+AI-generated Media & Image/video/audio & 1.Deepfake \newline 2.Synthetic media \\
+\hline
+\end{tabular}
+\end{table}
+
+The following table shows the general procedure of executing the research to compare the proposed standard protocol with the ad hoc method.
+\begin{figure}[H]
+    \centering
+
+    \fbox{%
+        \includegraphics[width=0.40\textwidth]{figures/project_outline.png}%
+    }
+
+    \caption{Experiment General Procedure}
+    \label{fig:Experiment Outline}
+\end{figure}
+
+The following table summarises the proposed protocol layers for the standardization of forensic procedures.
+% the second digram 
+\begin{figure}[H]
+    \centering
+
+    \fbox{%
+        \includegraphics[width=0.30\textwidth]{figures/Protocol.png}
+    }
+
+    \caption{Protocol Layers}
+    \label{fig:Protocol Layers}
+\end{figure}
+
+\subsection{General Principles}
+This section outlines the general principles that must be followed when the investigation is carried out:
+\\
+\begin{enumerate}
+    \item The evidence must immediately be seized upon discovery.
+    \item The original evidence must not be tampered or directly examined where it may alter its initial state.
+    \item The evidence to be examined by forensic tools must only be examined by its copy, and never the original source. This prevents data overwriting in volatile memory.
+    \item If access to original data cannot be avoided, every action must be recorded in its investigation. 
+    \item The investigation must be replicable by a third party.
+    \item All actions made in the investigation must be recorded through a reliable logging system. 
+    \item Throughout the investigation, an audit trail must be maintained on all actions done on the evidence, whether original or copied. The details related to the trail must be recorded extensively, such as the investigator carrying out the action, the date, time, etc. 
+\end{enumerate}
+
+\subsection{Protocol Layers}
+The following section further expands each protocol and provides a checklist to be filled in every investigation. 
+\subsubsection{Protocol 1: Identification}
+By establishing the facts and the general details of the case, the investigators will form an accurate context of the case, preventing confusion or misinterpretation of data. Additionally, by knowing the state of the evidence, investigators will be able to formulate a plan to further examine the evidence in the best strategy to minimize data loss. 
+Before the investigation is carried out, the investigator must record the following into a document: 
+\\
+\begin{itemize}
+    \item \checkbox\ Record investigator name 
+    \item \checkbox\ Record case ID 
+    \item \checkbox\ Record device owner details
+    \item \checkbox\ Record general case facts
+    \item \checkbox\ Record date and time received 
+    \item \checkbox\ Record evidence sender details 
+    \item \checkbox\ Record evidence source location 
+    \item \checkbox\ Record date and time of evidence seizure
+    \item \checkbox\ Record method of evidence collection
+\end{itemize}
+
+The investigator must record the following facts of the evidence:
+
+\begin{itemize}
+    \item \checkbox\ Assign evidence ID 
+    \item \checkbox\ Record evidence type 
+    \item \checkbox\ Record device type
+    \item \checkbox\ Record any visible applications/notifications if applicable 
+    \item \checkbox\ Record device initial state (locked/unlocked/etc) 
+    \item \checkbox\ Record device network connection 
+    \item \checkbox\ Record device physical condition and/or damages 
+    \item \checkbox\ Photograph device in proper lighting/angles
+    \item \checkbox\ Record preliminary context of evidence to the case
+\end{itemize}
+\subsubsection{Protocol 2: Preservation \& Acquisition}
+The seized evidence must follow a strict procedure to prevent data loss, which may lead to evidence insufficiency and loss of crucial evidence. 
+\\
+\\
+The investigator must adhere to the following procedure for evidence preservation: 
+
+\begin{itemize}
+    \item \checkbox\ Establish and record the chain-of-custody
+    \item \checkbox\ Record evidence storage conditions  
+    \item \checkbox\ Develop a plan to protect evidence from physical damage
+    \item \checkbox\ Prevent unauthorised access 
+    \item \checkbox\ Maintain state of device (ie: battery life, power status…) 
+    \item \checkbox\ Extensively document any interactions with original evidence 
+\end{itemize}
+
+The data from the evidence may be acquired by many different sources. Data acquiring must be carefully planned to prevent as much data loss where possible, executed with the least amount of effort required.
+
+To develop a plan, the investigators must consider these factors that may influence how the data is acquired: 
+
+\begin{enumerate}
+    \item \textbf{Volatility}: Volatile data is data that may be lost after the device has been switched off, and also may be lost from other tasks performed on the device. This data must be given the priority over non-volatile data. 
+    \item \textbf{Potential data loss}:Investigators must record and determine the potential data losses that may occur when data is acquired. 
+    \item \textbf{Forensic Tool}: With the information gathered on the device, investigators must determine the most suitable forensic tool to extract data from the evidence.
+\end{enumerate}
+
+The following is the procedure required to develop a data acquisition plan. 
+
+\begin{itemize}
+    \item \checkbox\ Identify acquisition objectives
+    \item \checkbox\ Determine method of acquisition  
+    \item \checkbox\ Determine whether acquisition on original evidence must be required 
+    \item \checkbox\ Identify data sources 
+    \item \checkbox\ Assess data volatility 
+    \item \checkbox\ Assess potential data loss
+    \item \checkbox\ Develop risk assessment 
+    \item \checkbox\ Select appropriate forensic tool for acquisition 
+    \item \checkbox\ Record tool names, versions and any configurations
+    \item \checkbox\ Develop alternative plans to carry out investigation
+\end{itemize}
+
+Once a plan is created for data acquisition, the following steps must be executed. 
+
+\begin{itemize}
+    \item \checkbox\ Create forensic image/copy of evidence with chosen forensic tool if applicable 
+    \item \checkbox\ Acquire forensic data with the chosen acquisition method if applicable 
+    \item \checkbox\ Record and log all copies of the evidence 
+\end{itemize}
+\subsubsection{Protocol 3: Verification \& Preparation}
+For the development of a case, it is crucial to be able to explain every step that occurs when data is acquired, this is to prove that investigators did not tamper with the evidence, ensuring data integrity for admissibility in legal systems. 
+
+Once data from the evidence is acquired, the investigators must execute the following to verify and prepare the data for examination and analysis: 
+
+\begin{itemize}
+    \item \checkbox\ Run SHA-256 hash function on original data and copied data if applicable, alternatively, generate any form of cryptographic hash value of each.
+    \item \checkbox\ Record hash algorithm
+    \item \checkbox\ Record date, time and any relevant details of the hashing
+    \item \checkbox\ Record hash value in evidence log 
+    \item \checkbox\ Compare hash 
+    \item \checkbox\ Record verification result and timestamp 
+    \item \checkbox\ Secure all data from evidence 
+    \item \checkbox\ Prepare chosen verified data for examination
+    \item \checkbox\ Secure perimeter of device 
+\end{itemize}
+
+In the case that the verification on the data integrity is compromised, the discrepancy is documented, its cause is investigated, and the method of acquisition is repeated using the appropriate or alternative method where applicable. 
+
+\subsubsection{Protocol 4: Examination \& Analysis}
+
+The examination stage of the investigation must be done carefully to ensure the data is thoroughly assessed for analysis. 
+
+The examination of data requires a development of a suitable plan. The following lists out the factors to consider when executing data examination. 
+
+\begin{enumerate}
+    \item \textbf{Identification of relevant data}: The investigator must identify which data sources, applications, system records, metadata, files and others that are relevant to the investigation to be examined.
+    \item \textbf{Data filtration}: Forensic tools must be identified to filter data and extract only relevant data through a predefined criteria. The criteria to be established may include file type, user details, timestamps, search keywords, application, or other characteristics which ensures reproducibility. 
+    \item \textbf{System bypassing \& data-access barriers}: Data/code may be hidden behind features provided by certain software, such as the system’s OS and applications or the data may be behind a password or encrypted. Thus, investigators must create a strategy to overcome such systems using known techniques. 
+    \item \textbf{Forensic tool \& techniques selection}: The forensic tool selected by investigators must be appropriate to the context of the evidence, and the examination objectives.
+\end{enumerate}
+
+The following is the procedure required to develop a data examination plan. 
+
+\begin{itemize}
+    \item \checkbox\ Define examination questions 
+    \item \checkbox\ Identify relevant data types and sources 
+    \item \checkbox\ Establish data filter criteria 
+    \item \checkbox\ Identify examination limitations 
+    \item \checkbox\ Identify potential data-access barriers
+    \item \checkbox\ Strategize overcoming data-access barriers
+    \item \checkbox\ Select suitable forensic tools/techniques 
+    \item \checkbox\ Record all forensic tool details (names, versions and configurations)
+    \item \checkbox\ Record procedures for executing Examination
+    \item \checkbox\ Record all details pertaining to the examination 
+\end{itemize}
+
+Once the examination plan has been defined, the investigator must execute the plan through a systematic, controlled approach, with appropriate documentation. There are several factors to consider when carrying out the analysis. 
+
+\begin{enumerate}
+    \item \textbf{Data access \& recovery}: When accessing data using the selected forensic tool, investigators must identify the data that are inaccessible, with proper documentation of its recovery and the techniques used.
+    \item \textbf{Data filtering}: Data is filtered through an established criteria made by the investigation to ensure resources are not spent on irrelevant data. This process must be done carefully, as to not exclude evidence that may be crucial. All data that are excluded must be documented accordingly. 
+    \item \textbf{Individual data analysis}: Individual data properties are examined to determine its content, timestamps, metadata, any other relevant information to the investigation. 
+    \item \textbf{Data relationship analysis}: Investigators must identify relationships between information, which may support conclusions made. 
+    \item \textbf{Comparison and contradictions}: Findings made from different techniques are compared and searched for any contradictions, which may warrant re-evaluation. 
+    \item \textbf{Critical Analysis}: Investigators must critically evaluate the obtained findings and relate evidence with one another. Resulting in creating conclusions with supporting evidence. Additionally, investigators must ensure that their reasoning behind conclusions considers alternate possibilities. As such, all interpretations must be recorded, and having a clear distinction between fact from observation, with interpretation.
+    \item \textbf{Documentation of uncertainty}: Any limitations by the forensic tools, or any data inaccessibility, or uncertainties in any findings have to be documented extensively. This is to ensure any information is not excluded when building a defensible forensic case. 
+\end{enumerate}
+
+The following procedures are required to be executed for the examination and analysis. 
+
+\begin{itemize}
+    \item \checkbox\ Access data through selected method 
+    \item \checkbox\ Record data access or data recovery
+    \item \checkbox\ Extract relevant information 
+    \item \checkbox\ Filter irrelevant data 
+    \item \checkbox\ Record excluded data and document reasonings
+    \item \checkbox\ Analyse individual data and corresponding metadata
+    \item \checkbox\ Examine data relationships 
+    \item \checkbox\ Identify contradictions 
+    \item \checkbox\ Compare information 
+    \item \checkbox\ Record observations 
+    \item \checkbox\ Record interpretation of findings
+    \item \checkbox\ Evaluate findings critically
+    \item \checkbox\ Record viable correlations 
+    \item \checkbox\ Document uncertainties 
+\end{itemize}
+
+The findings made by the examinations and analyses of data must be verified through repeating the procedures, or by using alternate forensic tools. Any contradictions must be resolved before documentation.
+
+\subsubsection{Protocol 5: Reporting}
+
+The synthesizing of a concise, comprehensive report of the investigation’s findings is crucial for presenting evidence of the case, as well as giving a detailed log of every action in the case to prevent misinterpretation. 
+\\
+The following outlines the sections required to be included into the formal documentation.
+
+
+\begin{enumerate}
+    \item \textbf{Case information}: All records, such as the IDs, details and names of associated people, device and evidence regarding the case must be included.
+    \item \textbf{Scope}: The investigators must outline the specific scope and objections of the investigation.
+    \item \textbf{Forensic methodology}: The details that must be included are as follows: 
+    \begin{itemize}
+        \item Details of forensic tools used (ie: tool name, tool version)
+        \item Settings/configurations of device
+        \item State of device
+        \item Part of evidence examined
+        \item Any related procedures in the data examination 
+    \end{itemize}
+    \item \textbf{Evidence integrity}: the documentation must include the hash values calculated, the record of copies made in the investigation, the information regarding the chain-of-custody, and the results of the evidence integrity verification. 
+    \item \textbf{Synthesized findings}: The results observed, supporting artefacts, interpretations and analyses must be recorded.
+    \item \textbf{Limitations}: Document the unrecoverable data of the case, missing evidence, tool limitations, uncertainty in interpretation, and any details that may limit an aspect of the case. 
+\end{enumerate}
+
+When corroborating information and creating the report, it is imperative to ensure that there is a clear separation between the observations/facts of the case and the interpretations made by the investigator. 
+
+The following lists the procedure following the documentation process.
+
+
+\begin{itemize}
+    \item \checkbox\ Verify IDs/names are accurate 
+    \item \checkbox\ Verify all forensic tools used are included
+    \item \checkbox\ Verify that the findings are supported by real evidence
+    \item \checkbox\ Verify the comprehensiveness of the report 
+    \item \checkbox\ Verify all major procedures are recorded
+    \item \checkbox\ Ensure any references are included  
+    \item \checkbox\ Verify format consistency of the report 
+    \item \checkbox\ Conduct a document review from a third party
+    \item \checkbox\ Record final details of the document (ie: report version, finalization date)
+\end{itemize}
+
 \section{Data Tools}
+
+The following table details the primary forensic tools and datasets to be used when applicable to the forensic investigations in our proposed research.
+
+% TESTING CODE !!!!!\
+\begin{table}[H]
+\caption{Data Sources And Data Tools}
+\label{tab:inclusion-exclusion}
+\small
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+\hline
+Domain & Evidence Type & Example Findings & Dataset sources & Primary forensic tools examples \\
+\hline
+Disk & Forensic disk image & 1.Deleted Files \newline 2.File metadata \newline 3.Documents & 1. NIST CFReDS forensic disk image \newline 2.Digital Corpora Repository & 1.Autopsy \newline 2.FTK Imager \newline 3.Guymager \\
+\hline
+Network & PCAP/network capture & 1.Port scans \newline 2.Phishing traffic \newline 3.Suspicious DNS requests & 1.NETRESEC Public PCAP repository \newline 2.Malware Traffic Analysis & 1.Wireshark \newline 2.Arkime \newline 3.Suricata \newline 4.Zeek \\
+\hline
+AI-generated Media & Image/video/audio & 1.Deepfake \newline 2.Synthetic media & 1.FaceForensics++ \newline 2.TrueFake \newline 3.Kaggle & 1.ExifTool \newline 2.Reality Defender \newline 3.Resemble AI (DETECT-2B) \newline 4.Sensity AI \\
+\hline
+\end{tabularx}
+\end{table}
+% TESTING CODE !!!!!
+
+
+\subsection{ Selection justification}
+The selected dataset represents the array of various types of digital evidence that may be included in forensic investigations that can be analysed against the proposed standard protocol. The scope of our evidence is the disk, network, and synthetic media. The selection was made as it provided a large dataset for thorough testing of the protocol and for evaluation of the forensic tools. Furthermore, compatibility and reproducibility were considered, through selection of data in the correct evidence format. Each dataset provided ample varying characteristics that allows for proper evaluation of the protocol. 
 
 \section{Evaluation Criteria}
 
@@ -358,7 +646,27 @@ To ensure the resulted outcome from the protocols are able to hold up against le
 \subsection{Assumptions \& Dependencies}
 As previously mentioned, our research is focused on executing the standard protocol against a known dataset to be compared with the ground truth. However, this is under the assumption that the steps from protocol 1,2, and 3 have been executed, providing data suitable for the procedures of examination \& analysis and the protocols thereafter. 
 
+\subsection{The Delphi Method}
+After obtaining the evaluated data from the standard protocol and the ad hoc procedure; the results are further analysed by the established approach, the Delphi method, known for its accuracy in judging a solution to a problem and its successful results, according to the (insert source). The aim is to gather unbiased expert opinion on the results to determine which of the two procedures are preferred. Generally, the method is a qualitative approach with many iterations to form a final consensus, mainly by converting subjective opinions into objective results. 
+
+There are many variations to the delphi method, and we have chosen a modified approach that we have collectively agreed would be most reliable. The main data collection is by structured questionnaires through online means, for flexibility. The experts must have deep knowledge on the subject and years of experience in digital forensics, either as a researcher or an investigator. The content of the questionnaire contains the analysis of the data as well as raw statistics for the expert’s own interpretation; each round of MCQ will have a corresponding anonymous discussion between the experts. In total, three rounds of questioning will determine the preferred choice, with all results and opinions extensively documented. 
+
 \chapter{Expected Outcomes}
+
+The study anticipates the following outcomes, tied to your four objectives:
+
+\begin{enumerate}
+    \item  \textbf{Evidence base for standardisation (Objective 1)}: A categorised synthesis of procedural variations, documentation gaps and reported limitations across at least 50 peer-reviewed studies, confirming and extending the gap observed in the 40-report analysis. 
+    \item  \textbf{A unified forensic protocol (Objective 2)}: A phase-by-phase protocol with at least 40 discrete steps and mandatory documentation requirement, built on NIST (National Institute Standards and Technology), ACPO (Association Chief of Police Officers) and ISO/IEC 27037, and validated by at least five certified practitioners (target of at least 80\% consensus).
+    \item  \textbf{A reliability metric (Objective 3)}: A scoring system with empirically derived weightings, tested on at least 100 historical cases, with inter-rater reliability of Cohen’s Cohen’s $\kappa \geq 0.80$.
+    \item  \textbf{Empirical evidence of effectiveness (Objective 4)}: Across at least 20 simulated scenarios, statistically significant (p < 0.05) improvement in reproducibility and reduced error rates compared with ad hoc methods, along with measured latency. 
+\end{enumerate}
+
+
+\textbf{Significance}: For researchers, the outcomes provide a reproducible, measurable baseline for comparing forensic methods. For practitioners, they provide a repeatable procedure with documentation requirements. For courts, they provide a transparent, quantifiable basis for assessing evidentiary weight, which supports admissibility reasoning under the Daubert criteria.
+\\
+\\
+\textbf{Deliverables}: the protocol document, the reliability scoring framework and its validation results, the experimental dataset and scripts, and a research article summarising the findings.
 
 \chapter{Project Timeline}
 
@@ -391,10 +699,11 @@ For the expected timeframe for each section of the Research Project itself, Figu
 % =========================================
 % 9. CONCLUSION
 % =========================================
+\section{Conclusion}
 
-This proposal aims to respond to a documented gap: digital forensics lacks standardised procedures and quantifiable reliability measures, which weakens the reproducibility and legal defensibility of digital evidence. We propose a unified forensic protocol, a reliability metric for scoring digital evidence, and a controlled empirical evaluation that tests both against ad hoc baselines using measurable criteria such as Cohen's kappa, error rate, F1-score and chain-of-custody integrity. Together these aim to replace subjective, inconsistent practice with a repeatable and testable approach.
+\textbf{Summary of contributions}: This proposal aims to respond to a documented gap: digital forensics lacks standardised procedures and quantifiable reliability measures, which weakens the reproducibility and legal defensibility of digital evidence. We propose a unified forensic protocol, a reliability metric for scoring digital evidence, and a controlled empirical evaluation that tests both against ad hoc baselines using measurable criteria such as Cohen's kappa, error rate, F1-score and chain-of-custody integrity. Together these aim to replace subjective, inconsistent practice with a repeatable and testable approach.
 
-As cybercrime grows more complex, courts will inevitably have to rely more heavily upon digital evidence, which must be trustworthy and open to scrutiny. Grounding digital forensic practices through standardised protocols alongside metrics for the reliability of evidence within legal reports produced from said practices offers a path to making digital evidence more consistent, transparent and defensible in a court of law.
+\textbf{Final remarks}: As cybercrime grows more complex, courts will inevitably have to rely more heavily upon digital evidence, which must be trustworthy and open to scrutiny. Grounding digital forensic practices through standardised protocols alongside metrics for the reliability of evidence within legal reports produced from said practices offers a path to making digital evidence more consistent, transparent and defensible in a court of law.
 
 \end{justify}
 
