@@ -228,6 +228,11 @@ INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./figures/assignment.jpg
+INPUT ./figures/assignment.jpg
+INPUT ./figures/assignment.jpg
+INPUT ./figures/assignment.jpg
+INPUT ./figures/assignment.jpg
 INPUT ./figures/Timeline.png
 INPUT ./figures/Timeline.png
 INPUT ./figures/Timeline.png
