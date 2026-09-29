@@ -19,6 +19,59 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{ablatif2017delphi}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=45c8cb2916d38c0d29fae7e3f34806c2}{%
+           family={Ab\bibnamedelima Latif},
+           familyi={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0930ed11401f4d9fb1a31245d714599e}{%
+           family={Dahlan},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aea2899dd234f0eb37e465b326f20a2d}{%
+           family={Ab\bibnamedelima Mulud},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1cf9c4f199f05e0dd7ae5efc3d9e78a}{%
+           family={Mat\bibnamedelima Nor},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={M.\bibnamedelimi Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{678b78c043d6121b88106bc36acb9cfe}
+      \strng{fullhash}{d37ce570385e4fe119907e41845e3354}
+      \strng{fullhashraw}{d37ce570385e4fe119907e41845e3354}
+      \strng{bibnamehash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authorbibnamehash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authornamehash}{678b78c043d6121b88106bc36acb9cfe}
+      \strng{authorfullhash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authorfullhashraw}{d37ce570385e4fe119907e41845e3354}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Education in Medicine Journal}
+      \field{number}{3}
+      \field{title}{The Delphi Technique as a Method to Obtain Consensus in Health Care Education Research}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.21315/eimj2017.9.3.10
+      \endverb
+    \endentry
     \entry{arif2025unveiling}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6310aabf93040d2896c6b7e4e94a68ce}{%
@@ -364,6 +417,59 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{ablatif2017delphi}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=45c8cb2916d38c0d29fae7e3f34806c2}{%
+           family={Ab\bibnamedelima Latif},
+           familyi={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0930ed11401f4d9fb1a31245d714599e}{%
+           family={Dahlan},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aea2899dd234f0eb37e465b326f20a2d}{%
+           family={Ab\bibnamedelima Mulud},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1cf9c4f199f05e0dd7ae5efc3d9e78a}{%
+           family={Mat\bibnamedelima Nor},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={M.\bibnamedelimi Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{678b78c043d6121b88106bc36acb9cfe}
+      \strng{fullhash}{d37ce570385e4fe119907e41845e3354}
+      \strng{fullhashraw}{d37ce570385e4fe119907e41845e3354}
+      \strng{bibnamehash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authorbibnamehash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authornamehash}{678b78c043d6121b88106bc36acb9cfe}
+      \strng{authorfullhash}{d37ce570385e4fe119907e41845e3354}
+      \strng{authorfullhashraw}{d37ce570385e4fe119907e41845e3354}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Education in Medicine Journal}
+      \field{number}{3}
+      \field{title}{The Delphi Technique as a Method to Obtain Consensus in Health Care Education Research}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.21315/eimj2017.9.3.10
+      \endverb
+    \endentry
     \entry{arif2025unveiling}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6310aabf93040d2896c6b7e4e94a68ce}{%
