@@ -3,10 +3,7 @@
 % =========================================
 % PAGE SETUP
 % =========================================
-\usepackage[
-    a4paper]{geometry}
-
-
+\usepackage[a4paper]{geometry}
 % =========================================
 % BASIC PACKAGES
 % =========================================
@@ -103,7 +100,6 @@
 }
 
 \end{center}
-
 
 % =========================================
 % ABSTRACT
@@ -647,7 +643,7 @@ To ensure the resulted outcome from the protocols are able to hold up against le
 As previously mentioned, our research is focused on executing the standard protocol against a known dataset to be compared with the ground truth. However, this is under the assumption that the steps from protocol 1,2, and 3 have been executed, providing data suitable for the procedures of examination \& analysis and the protocols thereafter. 
 
 \subsection{The Delphi Method}
-After obtaining the evaluated data from the standard protocol and the ad hoc procedure; the results are further analysed by the established approach, the Delphi method, known for its accuracy in judging a solution to a problem and its successful results, according to the (insert source). The aim is to gather unbiased expert opinion on the results to determine which of the two procedures are preferred. Generally, the method is a qualitative approach with many iterations to form a final consensus, mainly by converting subjective opinions into objective results. 
+After obtaining the evaluated data from the standard protocol and the ad hoc procedure; the results are further analysed by the established approach, the Delphi method, known for its accuracy in judging a solution to a problem and its successful results, according to \cite{ablatif2017delphi}. The aim is to gather unbiased expert opinion on the results to determine which of the two procedures are preferred. Generally, the method is a qualitative approach with many iterations to form a final consensus, mainly by converting subjective opinions into objective results. 
 
 There are many variations to the delphi method, and we have chosen a modified approach that we have collectively agreed would be most reliable. The main data collection is by structured questionnaires through online means, for flexibility. The experts must have deep knowledge on the subject and years of experience in digital forensics, either as a researcher or an investigator. The content of the questionnaire contains the analysis of the data as well as raw statistics for the expert’s own interpretation; each round of MCQ will have a corresponding anonymous discussion between the experts. In total, three rounds of questioning will determine the preferred choice, with all results and opinions extensively documented. 
 
@@ -656,15 +652,14 @@ There are many variations to the delphi method, and we have chosen a modified ap
 The study anticipates the following outcomes, tied to your four objectives:
 
 \begin{enumerate}
-    \item  \textbf{Evidence base for standardisation (Objective 1)}: A categorised synthesis of procedural variations, documentation gaps and reported limitations across at least 50 peer-reviewed studies, confirming and extending the gap observed in the 40-report analysis. 
-    \item  \textbf{A unified forensic protocol (Objective 2)}: A phase-by-phase protocol with at least 40 discrete steps and mandatory documentation requirement, built on NIST (National Institute Standards and Technology), ACPO (Association Chief of Police Officers) and ISO/IEC 27037, and validated by at least five certified practitioners (target of at least 80\% consensus).
-    \item  \textbf{A reliability metric (Objective 3)}: A scoring system with empirically derived weightings, tested on at least 100 historical cases, with inter-rater reliability of Cohen’s Cohen’s $\kappa \geq 0.80$.
-    \item  \textbf{Empirical evidence of effectiveness (Objective 4)}: Across at least 20 simulated scenarios, statistically significant (p < 0.05) improvement in reproducibility and reduced error rates compared with ad hoc methods, along with measured latency. 
+    \item  \textbf{Evidence base for standardisation (Objective 1)}: A thorough analysis and description of the research methods, documentation gaps, and limitations from at least 50 peer-reviewed studies. The synthesis of the papers will be a reference point for the standard protocol.
+    \item  \textbf{A unified forensic protocol (Objective 2)}: A reliable guidance on how forensic investigations must be executed by following a standard protocol with unambiguous steps and mandatory requirements, built on NIST (National Institute Standards and Technology), ACPO (Association Chief of Police Officers) and ISO/IEC 27037 with expert opinions on the subject (80\% consensus).
+    \item \textbf{A reliability metric (Objective 3)}:  A system to score the validity by deriving from the testing of 100 historical cases, with inter-rater reliability of $\kappa \geq 0.80$.
+    \item  \textbf{Empirical evidence of effectiveness (Objective 4)}: Having statistically significant improvement in reproducibility and decrease in error rates compared to ad hoc procedures, with at least 20 dataset scenarios.
 \end{enumerate}
 
 
-\textbf{Significance}: For researchers, the outcomes provide a reproducible, measurable baseline for comparing forensic methods. For practitioners, they provide a repeatable procedure with documentation requirements. For courts, they provide a transparent, quantifiable basis for assessing evidentiary weight, which supports admissibility reasoning under the Daubert criteria.
-\\
+\textbf{Significance}: The outcomes of this research will provide a reliable reference point for future research and a measurable baseline for comparing forensic methods. Furthermore, forensic investigators will be able to follow discrete steps and execute the investigation efficiently, ensuring proper documentation. Ultimately, the results of the forensic investigations using our protocol could be a valuable method to secure admissible evidence, supporting the Daubert criteria.
 \\
 \textbf{Deliverables}: the protocol document, the reliability scoring framework and its validation results, the experimental dataset and scripts, and a research article summarising the findings.
 
