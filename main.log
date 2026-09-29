@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  29 SEP 2026 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.6)  29 SEP 2026 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/themo/Research-Method-Assignment-2/main.tex
-(c:/Users/themo/Research-Method-Assignment-2/main.tex
+**c:/Users/Orpheus/Documents/Research-Method-Assignment-2/main.tex
+(c:/Users/Orpheus/Documents/Research-Method-Assignment-2/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
 (c:/texlive/2026/texmf-dist/tex/latex/base/report.cls
@@ -719,17 +719,16 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 76.
 
-[1
-
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122.
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -758,12 +757,12 @@ Chapter 5.
 ] [10] [11]
 Chapter 6.
 
-Overfull \hbox (2.09897pt too wide) in paragraph at lines 295--296
+Overfull \hbox (2.09897pt too wide) in paragraph at lines 297--298
 \OT1/cmr/m/n/10 method-ol-ogy of con-trolled and re-peated mea-sures. The method-ol-ogy will re-quire foren-sic datasets,
  []
 
 
-Overfull \hbox (17.68488pt too wide) in paragraph at lines 312--323
+Overfull \hbox (17.68488pt too wide) in paragraph at lines 314--325
 [][] 
  []
 
@@ -773,47 +772,47 @@ Overfull \hbox (17.68488pt too wide) in paragraph at lines 312--323
 <figures/project_outline.png, id=218, 317.38576pt x 576.35326pt>
 File: figures/project_outline.png Graphic file (type png)
 <use figures/project_outline.png>
-Package pdftex.def Info: figures/project_outline.png  used on input line 331.
+Package pdftex.def Info: figures/project_outline.png  used on input line 333.
 (pdftex.def)             Requested size: 167.2989pt x 303.81242pt.
 <figures/Protocol.png, id=220, 186.6975pt x 425.79076pt>
 File: figures/Protocol.png Graphic file (type png)
 <use figures/Protocol.png>
-Package pdftex.def Info: figures/Protocol.png  used on input line 344.
+Package pdftex.def Info: figures/Protocol.png  used on input line 346.
 (pdftex.def)             Requested size: 125.47737pt x 286.16841pt.
  [13 <./figures/project_outline.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 351--353
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
 
  []
 
 [14 <./figures/Protocol.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 366--369
+Underfull \hbox (badness 10000) in paragraph at lines 368--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--399
+Underfull \hbox (badness 10000) in paragraph at lines 397--401
 
  []
 
 [15] [16] [17] [18] [19]
-Overfull \hbox (5.9176pt too wide) in paragraph at lines 580--580
+Overfull \hbox (5.9176pt too wide) in paragraph at lines 582--582
 []|\OT1/cmr/m/n/9 Image/video/audio|  
  []
 
 
-Overfull \hbox (5.27037pt too wide) in paragraph at lines 580--580
+Overfull \hbox (5.27037pt too wide) in paragraph at lines 582--582
 []|\OT1/cmr/m/n/9 1.FaceForensics++  
  []
 
 [20]
-Overfull \hbox (17.68488pt too wide) in paragraph at lines 598--643
+Overfull \hbox (17.68488pt too wide) in paragraph at lines 600--645
 [][] 
  []
 
 [21] [22]
 Chapter 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--670
+Underfull \hbox (badness 10000) in paragraph at lines 668--672
 
  []
 
@@ -824,17 +823,17 @@ Chapter 8.
 <figures/assignment.jpg, id=313, 690.4194pt x 215.8464pt>
 File: figures/assignment.jpg Graphic file (type jpg)
 <use figures/assignment.jpg>
-Package pdftex.def Info: figures/assignment.jpg  used on input line 680.
+Package pdftex.def Info: figures/assignment.jpg  used on input line 682.
 (pdftex.def)             Requested size: 334.60422pt x 104.60632pt.
 <figures/Timeline.png, id=314, 1445.4pt x 813.0375pt>
 File: figures/Timeline.png Graphic file (type png)
 <use figures/Timeline.png>
-Package pdftex.def Info: figures/Timeline.png  used on input line 693.
+Package pdftex.def Info: figures/Timeline.png  used on input line 695.
 (pdftex.def)             Requested size: 334.60422pt x 188.21046pt.
 [24
 
  <./figures/assignment.jpg>] [25 <./figures/Timeline.png (PNG copy)>]
-Overfull \hbox (5.96529pt too wide) in paragraph at lines 721--721
+Overfull \hbox (5.96529pt too wide) in paragraph at lines 723--723
 \OT1/cmr/m/n/10 dig-i-tal foren-sics in-ves-ti-ga-tions with ar-ti-fi-cial in-tel-li-gence. \OT1/cmr/m/it/10 arXiv preprint arXiv:2510.14638\OT1/cmr/m/n/10 . 
  []
 
@@ -861,14 +860,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20335 strings out of 467099
- 357196 string characters out of 5412503
+ 357232 string characters out of 5412503
  1302732 words of memory out of 5000000
  49335 multiletter control sequences out of 15000+600000
  637229 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,10n,79p,1620b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,10n,79p,1237b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (26 pages, 603920 bytes).
+Output written on main.pdf (26 pages, 604700 bytes).
 PDF statistics:
  401 PDF objects out of 1000 (max. 8388607)
  343 compressed objects within 4 object streams
